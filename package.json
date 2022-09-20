@@ -39,5 +39,9 @@
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
+  },
+  "dependencies": {
+    "@fontsource/rubik": "^4.5.11",
+    "daisyui": "^2.29.0"
   }
 }

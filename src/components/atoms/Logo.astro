@@ -1,6 +1,6 @@
 ---
+import { SITE } from '~/config.mjs';
 ---
 
-<span class="self-center ml-2 text-2xl font-extrabold text-gray-900 whitespace-nowrap dark:text-white">
-	🚀 AstroWind</span
->
+<img src={`${SITE.basePathname}logo-light.svg`} alt="logo-light" width="150" class="dark:hidden" /><img />
+<img src={`${SITE.basePathname}logo-dark.svg`} alt="logo-dark" width="150" class="hidden dark:block" /><img />

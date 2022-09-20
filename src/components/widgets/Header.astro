@@ -31,28 +31,27 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href="#">Pages</a
+						href="#">About</a
 					>
 				</li>
-				<li>
-					<a
-						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href={getPermalink('useful-resources-to-create-websites', 'post')}
-						>Resources
-					</a>
-				</li>
+
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						href={getBlogPermalink()}>Blog</a
 					>
 				</li>
-				<li class="md:hidden">
+				<li>
 					<a
-						class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href="https://github.com/onwidget/astrowind"
-						>Github
-					</a>
+						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						href="#">Services</a
+					>
+				</li>
+				<li>
+					<a
+						class="btn bg-gradient-to-r from-secondary-600 to-primary-600 hover:from-primary-600 hover:to-secondary-600 text-white font-semibold flex items-center transition duration-150 ease-in-out rounded-full"
+						href="#">Contact Us</a
+					>
 				</li>
 			</ul>
 			<div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
