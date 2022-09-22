@@ -12,8 +12,21 @@ module.exports = {
 			fontFamily: {
 				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
 			},
+			keyframes: {
+				fadeIn: {
+					'0%': { opacity: 0 },
+					'100%': { opacity: 1 },
+				},
+			},
+			animation: {
+				fadeIn: 'fadeIn 1s ease-in forwards',
+			},
+		},
+		variants: {
+			animation: ['motion-safe'],
 		},
 	},
+
 	plugins: [require('@tailwindcss/typography'), require('daisyui')],
 	darkMode: 'class',
 };
