@@ -46,7 +46,7 @@
 		document.getElementById('menu')?.classList.add('hidden');
 	};
 
-	window.onload = function () {
+	window.onpageshow = function () {
 		const callback = function (entries) {
 			entries.forEach((entry) => {
 				// Is the element in the viewport?

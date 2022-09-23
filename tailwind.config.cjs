@@ -6,7 +6,18 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: colors.blue,
+				primary: {
+					50: '#e3f3ff',
+					100: '#bce1ff',
+					200: '#8fceff',
+					300: '#5bbbff',
+					400: '#2eaaff',
+					500: '#009bff',
+					600: '#198bff',
+					700: '#2578ff',
+					800: '#2b65ec',
+					900: '#3142cc',
+				},
 				secondary: colors.pink,
 			},
 			fontFamily: {
